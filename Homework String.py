@@ -132,3 +132,4 @@ text3 = text1.startswith("Python")
 print(text3)
 text4 = text1.find("л")
 print(text4)
+

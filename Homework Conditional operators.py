@@ -143,6 +143,7 @@ elif temperature >= 10 and temperature <= 25:
 else:
     print("Жарко")
 
+
 Задача №9 (вложенный #if)
 Даны переменные:
 has_ticket = #True
