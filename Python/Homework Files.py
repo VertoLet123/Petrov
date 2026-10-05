@@ -13,7 +13,7 @@ from fileinput import close
 Не забудь про режим открытия 'r' и про закрытие файла после чтения.
 Напиши код. Я проверю.
 
-file = open("File for homework", 'r', encoding='utf-8')
+file = open("Homework #1/File for homework", 'r', encoding='utf-8')
 content = file.read()
 print(content)
 file.close()
@@ -28,7 +28,7 @@ file.close()
 Выводит data на экран
 Важно: Не используй .close() — контекстный менеджер закроет файл автоматически.
 
-with open ("File for homework", 'r', encoding='utf-8') as file:
+with open ("Homework #1/File for homework", 'r', encoding='utf-8') as file:
     data = file.read()
     print(data)
 
@@ -37,7 +37,7 @@ with open ("File for homework", 'r', encoding='utf-8') as file:
 Открой файл "File for homework" в режиме чтения, прочитай его целиком с помощью .read()
 и выведи содержимое на экран. Закрой файл вручную. Не используй with.
 
-file = open("File for homework", 'r', encoding='utf-8')
+file = open("Homework #1/File for homework", 'r', encoding='utf-8')
 print(file.read())
 file.close()
 
@@ -46,7 +46,7 @@ file.close()
 Сделай то же самое, что в задаче №1 (прочитать файл "File for homework" и вывести содержимое), но используя контекстный менеджер with.
 Без ручного закрытия файла.
 
-with open ("File for homework", 'r', encoding='utf-8') as file:
+with open ("Homework #1/File for homework", 'r', encoding='utf-8') as file:
     print(file.read())
 
 
@@ -99,7 +99,7 @@ text
 Напиши код. Я проверю.
 
 
-with open ("File for homework", 'r', encoding='utf-8') as file:
+with open ("Homework #1/File for homework", 'r', encoding='utf-8') as file:
     line_number = 1
     for line in file:
         print(line_number, line.strip())
