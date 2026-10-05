@@ -21,7 +21,7 @@ print(result3)
 Выполните действия и выведите каждый результат на отдельной строке:
 Удалите пробелы в начале и конце (метод strip())
 Приведите строку к верхнему регистру (метод upper())
-Замените "мир" на "Python" (метод replace())
+Замените "мир" на "1. Python" (метод replace())
 Найдите индекс первого вхождения буквы "и" в строке после удаления пробелов (метод find())
 
 text = " привет мир "
@@ -29,7 +29,7 @@ print(text)
 clean = text.strip()
 print(clean)
 print(text.upper())
-print(text.replace("мир", "Python"))
+print(text.replace("мир", "1. Python"))
 clean.find("и")
 print(clean.find("и"))
 

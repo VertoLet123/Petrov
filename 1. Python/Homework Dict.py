@@ -2,13 +2,13 @@
 Создайте словарь student с тремя парами ключ-значение:
 ключ "name" → значение "Иван"
 ключ "age" → значение 20
-ключ "course" → значение "Python"
+ключ "course" → значение "1. Python"
 Выведите полученный словарь на экран.
 
 student = {
     "name": "Иван" ,
     "age": 20 ,
-    "course": "Python"
+    "course": "1. Python"
 }
 print(student)
 

@@ -129,11 +129,11 @@ def show_name():
 show_name()
 
 
-Напиши функцию say_python(), которая выводит на экран строку "Python — это сила!".
+Напиши функцию say_python(), которая выводит на экран строку "1. Python — это сила!".
 Вызови её.
 
 def say_python():
-    print("Python — это сила!")
+    print("1. Python — это сила!")
 say_python()
 
 

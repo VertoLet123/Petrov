@@ -25,7 +25,7 @@ is_student со значением False
 age = 30
 name = "Анна"
 is_student = False
-print (type (age))
+print (type(age))
 print (type(name))
 print (type(is_student))
 
