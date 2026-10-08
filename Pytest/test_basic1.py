@@ -34,3 +34,27 @@ class TestExample:
         output = driver.find_element(*self.OUTPUT_BLOCK)
         assert output.is_displayed() is True
         assert ("Alex" and "aqa@gmail.com" and "Lenina 11") in output.text
+
+
+
+
+
+ИЛИ
+
+
+
+from selenium import webdriver
+
+class TestLogin: # Название тестового класса
+
+    def setup_method(self):
+        print("Выполняюсь до теста")
+        self.driver = webdriver.Chrome()
+
+    def test_open_login_page(self):
+        self.driver.get("https://demoqa.com/login")
+        assert self.driver.current_url == "https://demoqa.com/login", "Ошибка"
+
+    def teardown_method(self):
+        self.driver.close()
+        print("Выполняюсь после теста")
