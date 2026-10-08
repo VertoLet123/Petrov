@@ -11,6 +11,7 @@ class TestMarking:
     def test_open_login_page(self):
         self.driver.get("https://demoqa.com/login")
         assert self.driver.current_url == "https://demoqa.com/login", "Error"
+        
     @pytest.mark.regression
     def test_open_books_page(self):
         self.driver.get("https://demoqa.com/books")
