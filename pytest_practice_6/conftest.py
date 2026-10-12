@@ -5,11 +5,11 @@ from collections import namedtuple
 
 fake = Faker()
 
-@pytest.fixture(name="browser")
-def open_browser(request):
-    request.cls.driver = webdriver.Chrome()
-    yield
-    request.cls.driver.quit()
+@pytest.fixture
+def driver():
+    driver = webdriver.Chrome()
+    yield driver
+    driver.quit()
 
 @pytest.fixture(name="user_data")
 def fake_data():
